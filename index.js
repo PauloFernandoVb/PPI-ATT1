@@ -56,4 +56,6 @@ app.get('/', (req, res) => {
 
 app.listen(porta,host, () => {
   console.log('Servidor rodando em http://localhost:5000');
+  //http://localhost:3000/?idade=30&sexo=F&salario_base=2000&anoContratacao=2010&matricula=123
+
 });
