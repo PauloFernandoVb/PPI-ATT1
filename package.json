@@ -1,0 +1,21 @@
+{
+  "name": "ppi-att1",
+  "version": "1.0.0",
+  "description": "att 1 do ppi",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloFernandoVb/PPI-ATT1.git"
+  },
+  "author": "Paulo fernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloFernandoVb/PPI-ATT1/issues"
+  },
+  "homepage": "https://github.com/PauloFernandoVb/PPI-ATT1#readme"
+}
