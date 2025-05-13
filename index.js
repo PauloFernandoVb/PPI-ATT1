@@ -1,4 +1,6 @@
-const express = require('express');
+import express from "express";
+const porta=5000;
+const host="0.0.0.0";
 const app = express();
 
 app.get('/', (req, res) => {
@@ -52,6 +54,6 @@ app.get('/', (req, res) => {
   `);
 });
 
-app.listen(5000, () => {
+app.listen(porta,host, () => {
   console.log('Servidor rodando em http://localhost:5000');
 });

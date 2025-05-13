@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "att 1 do ppi",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/PauloFernandoVb/PPI-ATT1/issues"
   },
-  "homepage": "https://github.com/PauloFernandoVb/PPI-ATT1#readme"
+  "homepage": "https://github.com/PauloFernandoVb/PPI-ATT1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
